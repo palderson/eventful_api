@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency  "oauth", ["~> 0.3.6"]
-  gem.add_dependency  "multi_json", ["~> 1.5.0"]
+  gem.add_dependency  "multi_json", ["1.10.1"]
   gem.add_dependency  "addressable", ["~> 2.3.4"]
 
   gem.add_development_dependency  "rake", ["~> 10.0.4"]
